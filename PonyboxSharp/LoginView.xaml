@@ -1,0 +1,16 @@
+﻿<Window x:Class="PonyboxSharp.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PonyboxSharp"
+        mc:Ignorable="d"
+        Title="LoginView" Height="200" Width="300">
+    <StackPanel HorizontalAlignment="Left" Width="300">
+        <Label></Label>
+        <TextBox Name="Username"></TextBox>
+        <Label ></Label>
+        <TextBox Name="Password"></TextBox>
+        <Button Name="Login" Click="Login_Click">Login</Button>
+    </StackPanel>
+</Window>
