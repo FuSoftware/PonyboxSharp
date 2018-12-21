@@ -34,7 +34,8 @@ namespace PonyboxSharp
 
         private void PBLogin()
         {
-            data = LoginClient.Login(Username.Text, Password.Text);
+            data = Tuple.Create<string, string>(Username.Text, Password.Text);
+            //data = LoginClient.Login(Username.Text, Password.Text);
 
             if(data != null)
             {
